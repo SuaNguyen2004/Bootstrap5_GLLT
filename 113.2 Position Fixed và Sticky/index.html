@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- css bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+
+        <!-- my styles -->
+        <link rel="stylesheet" href="./mystyles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="bg-primary text-center">
+            <h2>1. Text alignment</h2>
+        </div>
+        <p class="text-start">Start aligned text on all viewport sizes.</p>
+        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <p class="text-end">End aligned text on all viewport sizes.</p>
+
+        <p class="text-sm-end">End aligned text on viewports sized SM (small) or wider.</p>
+        <p class="text-md-end">End aligned text on viewports sized MD (medium) or wider.</p>
+        <p class="text-lg-end">End aligned text on viewports sized LG (large) or wider.</p>
+        <p class="text-xl-end">End aligned text on viewports sized XL (extra large) or wider.</p>
+        <p class="text-xxl-end">
+            End aligned text on viewports sized XXL (extra extra large) or wider.
+        </p>
+
+        <div class="bg-primary text-center">
+            <h2>2. Text wrapping and overflow</h2>
+        </div>
+
+        <!-- text wrap chỉ bẻ xuống dòng khi gặp dấu cách -->
+        <div class="badge text-bg-primary text-wrap" style="width: 6rem">
+            This text should wrap.
+        </div>
+
+        <div class="text-nowrap bg-body-secondary border" style="width: 8rem">
+            This text should overflow the parent.
+        </div>
+
+        <p class="text-break">
+            mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+        </p>
+
+        <div class="bg-primary text-center">
+            <h2>4. Text transform</h2>
+        </div>
+
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased text.</p>
+        <p class="text-capitalize">CapiTaliZed text.</p>
+
+        <div class="bg-primary text-center">
+            <h2>5. Font size</h2>
+        </div>
+
+        <p class="fs-1">.fs-1 text</p>
+        <p class="fs-2">.fs-2 text</p>
+        <p class="fs-3">.fs-3 text</p>
+        <p class="fs-4">.fs-4 text</p>
+        <p class="fs-5">.fs-5 text</p>
+        <p class="fs-6">.fs-6 text</p>
+
+        <div class="bg-primary text-center">
+            <h2>6. Line height</h2>
+        </div>
+
+        <p class="lh-1">
+            This is a long paragraph written to show how the line-height of an element is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent
+            element. These classes can be customized as needed with our utility API.
+        </p>
+        <p class="lh-sm">
+            This is a long paragraph written to show how the line-height of an element is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent
+            element. These classes can be customized as needed with our utility API.
+        </p>
+
+        <!-- Mặc định, có hay không vẫn vậy -->
+        <p class="lh-base">
+            This is a long paragraph written to show how the line-height of an element is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent
+            element. These classes can be customized as needed with our utility API.
+        </p>
+        <p class="lh-lg">
+            This is a long paragraph written to show how the line-height of an element is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent
+            element. These classes can be customized as needed with our utility API.
+        </p>
+
+        <div class="bg-primary text-center">
+            <h2>7. Monospace Font</h2>
+        </div>
+
+        <p>This is in monospace</p>
+        <p class="font-monospace">This is in monospace</p>
+
+        <div class="bg-primary text-center">
+            <h2>8. Reset Color</h2>
+        </div>
+
+        <p class="text-body-secondary">
+            Secondary body text with a
+            <a href="#" class="text-reset text-decoration-none">reset link</a>
+            .
+        </p>
+
+        <div class="bg-primary text-center">
+            <h2>8. Reset Color</h2>
+        </div>
+
+        <p class="text-decoration-underline">This text has a line underneath it.</p>
+        <p class="text-decoration-line-through">This text has a line going through it.</p>
+        <a href="#" class="text-decoration-none">This link has its text decoration removed</a>
+
+        <!-- js bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,10 +1,10 @@
-:root {
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-
-  --bg-custom-gradient: linear-gradient(180deg, rgba(141, 10, 10, 0.15), rgba(255, 255, 255, 0));
+/* :root {
+  --bs-primary-rgb: 13, 110, 253;
 }
 
-.myDiv {
-  background-color: #772877;
-  background-image: var(--bg-custom-gradient);
-}
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(13, 110, 253, 1);
+} */
+
